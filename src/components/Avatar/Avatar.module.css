@@ -1,0 +1,20 @@
+.avatarContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 160px;
+	height: 160px;
+	border-radius: 100%;
+	background: rgb(29, 63, 71);
+	background: linear-gradient(
+		50deg,
+		rgb(29, 63, 71) 0%,
+		#917c4c 50%,
+		rgb(29, 63, 71) 100%
+	);
+}
+
+.avatarImg {
+	width: 140px;
+	border-radius: 100%;
+}

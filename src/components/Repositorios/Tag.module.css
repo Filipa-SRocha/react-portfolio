@@ -1,0 +1,18 @@
+.tag,
+.language {
+	padding: 4px 8px;
+	border-radius: 6px;
+	width: fit-content;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.tag {
+	background-color: #486a72;
+	color: #f1f1f1;
+}
+
+.language {
+	border: 2px solid #94561f;
+	color: #94561f;
+}

@@ -1,0 +1,26 @@
+.title {
+	letter-spacing: 6px;
+	font-size: 38px;
+	color: #735d2d;
+	margin: 20px 0;
+}
+
+.header {
+	margin: 60px 40px;
+	display: flex;
+	gap: 80px;
+}
+
+.header > div {
+	display: flex;
+	flex-direction: column;
+}
+
+.header > div > p {
+	color: white;
+	margin-bottom: 6px;
+}
+
+.header > div > small {
+	color: antiquewhite;
+}

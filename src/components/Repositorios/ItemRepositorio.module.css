@@ -1,0 +1,51 @@
+.repositorioContainer {
+	padding: 10px;
+	max-width: 400px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 10px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	background: linear-gradient(to bottom, rgb(29, 63, 71) 50%, #fff 50%);
+	background-size: 100% 200%;
+	background-position: bottom left;
+	transition: all 0.6s ease-out;
+}
+
+.repositorioContainer:hover {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+	background-position: top left;
+	color: #fff;
+}
+
+.repositorioContainer:hover h2 {
+	color: white;
+}
+
+.repositorioContainer:hover .description {
+	color: white;
+}
+
+.description {
+	text-align: justify;
+	color: rgb(75, 74, 74);
+}
+
+.repositorioFooter {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	color: black;
+}
+.repositorioFooter > div:last-child {
+	display: flex;
+	justify-content: space-between;
+}
+
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
